@@ -1,0 +1,121 @@
+
+
+#square {
+    background-color:rgba(9, 15, 34, 0.8);
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    padding:2.5rem 5rem 2.5rem 5rem;
+    margin : 0 auto 0 auto;
+    width: 80%;
+    height: 40rem;
+    box-shadow: 3px 3px 6px darkslategray;
+    border-radius: 6px;
+}
+
+
+
+#square h1 {
+    font-size: 1.5em;
+    color:white;
+    opacity: 1;
+    text-align: center;
+    font-family: 'Poppins Light';
+}
+
+#square hr {
+    opacity: 1;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(177, 66, 90);
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+#square p {
+    font-size : 0.9em;
+    color: white;
+    letter-spacing: 0.2em;
+    margin-top: 5%;
+}
+
+
+#square span {
+    margin-right: 2%;
+}
+
+
+input[type="text"], input[type="email"] {
+    font-family: 'Poppins';
+    /* background: transparent; */
+    border-color:transparent;
+    margin-bottom: 2%;
+    font-size: 15px;
+    color:white;
+}
+
+/* input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #a7a7a7;
+    background: transparent;
+}
+ 
+input:-moz-placeholder { 
+    font-size: 15px;
+    color: #6f76b6;
+    background: transparent;
+}
+ 
+input::-moz-placeholder {  
+    font-size: 15px;
+    color: #ffffff;
+    background: transparent;
+}
+ 
+input:-ms-input-placeholder {
+    font-size: 15px;
+    color: #ffffff;
+    background: transparent;
+} */
+input:focus{
+outline: none;
+background: transparent;
+}
+
+
+button[type="submit"] {
+    background-image: linear-gradient(to bottom, #A72E4C,#831531) !important;
+    /*background-color:rgb(177, 66, 90);*/
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-size: 0.9em;
+    margin-bottom: 2%;
+    height: 50px;
+    opacity: 1.0;
+    width: 170px;
+    border:none;
+}
+
+
+
+button[type="submit"]:hover {
+    background-image: linear-gradient(to left,#a72e4c,#a72e4b) !important;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px #2f3e52;
+    /*
+    background-color: rgb(204, 65, 107);*/
+}
+
+
+#square a:hover {
+    color:rgb(202, 202, 202);
+}
+
+#square a:active{ 
+    color:red;
+}
+
+
